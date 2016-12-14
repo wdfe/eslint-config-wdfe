@@ -58,18 +58,10 @@ module.exports = {
     'no-lonely-if': 'error',
     // 禁止使用嵌套的三元表达式
     'no-nested-ternary': 'error',
-    // 要求在变量声明周围换行
-    'one-var-declaration-per-line': ['error', 'initializations'],
-    // 禁止不必要的布尔类型转换
-    'no-extra-boolean-cast': 'error',
-    // 禁止在 else 前有 return
-    'no-else-return': 'error',
     // 关键字不能被遮蔽
     'no-shadow-restricted-names': 'error',
     // 字符串只能使用单引号或者反引号
     'quotes': ['error', 'single', {allowTemplateLiterals: true}],
-    // 禁止属性前有空白
-    'no-whitespace-before-property': 'error',
     // 禁止使用 空格 和 tab 混合缩进
     'no-mixed-spaces-and-tabs': 'error',
     // 禁用八进制字面量
@@ -79,6 +71,14 @@ module.exports = {
 
     // ---------------------------- 建议的风格 -----------------------------------
 
+    // 禁止属性前有空白
+    'no-whitespace-before-property': 'warn',
+    // 禁止不必要的布尔类型转换
+    'no-extra-boolean-cast': 'warn',
+    // 禁止在 else 前有 return
+    'no-else-return': 'warn',
+    // 要求在变量声明周围换行
+    'one-var-declaration-per-line': ['warn', 'initializations'],
     // 提醒未声明的变量
     'no-undef': 'warn',
     // 提醒变量遵循驼峰写法
