@@ -115,8 +115,6 @@ module.exports = {
     // 禁用行尾空格
     'no-trailing-spaces': ['warn', {skipBlankLines: true}],
     // 建议箭头函数的箭头之前或之后有空格
-    'arrow-spacing': 'warn',
-    // 不建议模板字符串中空格的使用
     'template-curly-spacing': ['warn', 'never'],
     // 大括号风格
     'brace-style': ['warn', '1tbs', {allowSingleLine: true}],
@@ -129,12 +127,6 @@ module.exports = {
       beforeColon: false,
       afterColon: true,
     }],
-    // 不允许多个空行
-    'no-multiple-empty-lines': ['warn', {
-      max: 2,
-      maxEOF: 1,
-      maxBOF: 1,
-    }],
     // 限制最大参数个数
     'max-params': ['warn', 10],
     // 强制回调函数最大嵌套深度
@@ -143,20 +135,8 @@ module.exports = {
     'space-infix-ops': ['warn', {int32Hint: false}],
     // 禁止使用多个空格
     'no-multi-spaces': 'warn',
-    // 建议使用 const
-    'prefer-const': 'warn',
-    // 禁用函数内没有yield的 generator 函数
-    'require-yield': 'warn',
-    // 建议 generator 函数中 * 号周围有空格，比如 function* generator() {}
-    'generator-star-spacing': ['warn', {before: false, after: true}],
     // 建议可以表达为更简单结构的条件表达式
     'no-unneeded-ternary': 'warn',
-    // 禁止变量声明覆盖外层作用域的变量
-    'no-shadow': ['warn', {
-      builtinGlobals: true,
-      hoist: 'functions',
-      allow: ['err', 'error', 'resolve', 'reject', 'done', 'callback', 'next'],
-    }],
 
     // ---------------------------- 检查关闭项 -----------------------------------
     // 关闭嵌套声明检查
