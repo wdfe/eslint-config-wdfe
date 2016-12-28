@@ -75,8 +75,6 @@ module.exports = {
     'no-whitespace-before-property': 'warn',
     // 禁止不必要的布尔类型转换
     'no-extra-boolean-cast': 'warn',
-    // 禁止在 else 前有 return
-    'no-else-return': 'warn',
     // 要求在变量声明周围换行
     'one-var-declaration-per-line': ['warn', 'initializations'],
     // 提醒未声明的变量
