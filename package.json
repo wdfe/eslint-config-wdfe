@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-wdfe",
-  "version": "0.0.7",
+  "version": "0.1.0",
   "description": "eslint config for wdfe",
   "main": "index.js",
   "scripts": {

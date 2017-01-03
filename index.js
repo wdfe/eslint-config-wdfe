@@ -139,5 +139,7 @@ module.exports = {
     // ---------------------------- 检查关闭项 -----------------------------------
     // 关闭嵌套声明检查
     'no-inner-declarations': 'off',
+    // 允许多个空行来提高可读性
+    'no-multiple-empty-lines': 'off'
   },
 }
