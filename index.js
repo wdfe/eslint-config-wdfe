@@ -66,8 +66,6 @@ module.exports = {
     'no-mixed-spaces-and-tabs': 'error',
     // 禁用八进制字面量
     'no-octal': 'error',
-    // 要求构造函数首字母大写
-    'new-cap': 'error',
 
     // ---------------------------- 建议的风格 -----------------------------------
 
