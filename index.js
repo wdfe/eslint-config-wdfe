@@ -67,7 +67,7 @@ module.exports = {
     // 禁用八进制字面量
     'no-octal': 'error',
     // 构造函数首字母大写
-    'new-cap': ['error', {"capIsNew": false}]
+    'new-cap': ['error', {'capIsNew': false}],
 
     // ---------------------------- 建议的风格 -----------------------------------
 
