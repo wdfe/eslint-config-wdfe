@@ -34,7 +34,7 @@ module.exports = {
     // 强制无分号风格
     'semi': ['error', 'never'],
     // 缩进必须为2个空格
-    'indent': ['error', 2],
+    'indent': ['error', 2, {"SwitchCase": 1}],
     // 禁止定义前使用变量
     'no-use-before-define': ['error', {
       functions: false,
