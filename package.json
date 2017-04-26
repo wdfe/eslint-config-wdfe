@@ -2,10 +2,19 @@
   "name": "eslint-config-wdfe",
   "version": "0.3.1",
   "description": "eslint config for wdfe",
+  "author": "jin5354",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wdfe/eslint-config-wdfe"
+  },
+  "homepage": "https://github.com/wdfe/eslint-config-wdfe#readme",
+  "bugs": {
+    "url": "https://github.com/wdfe/eslint-config-wdfe/issues"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "wdfe",
-  "license": "ISC"
+  "license": "MIT"
 }
