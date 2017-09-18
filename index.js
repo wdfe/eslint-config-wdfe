@@ -8,6 +8,7 @@ module.exports = {
   parserOptions: {
     sourceType: 'module',
     allowImportExportEverywhere: false,
+    ecmaVersion: 2017
   },
   rules: {
 
