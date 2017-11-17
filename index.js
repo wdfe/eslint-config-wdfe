@@ -4,7 +4,7 @@ module.exports = {
     node: true,
     browser: true,
   },
-  extends: 'eslint:recommended',
+  extends: 'standard',
   parserOptions: {
     sourceType: 'module',
     allowImportExportEverywhere: false,
@@ -100,15 +100,11 @@ module.exports = {
     'linebreak-style': ['warn', 'unix'],
     // 圆括号内不建议加空格
     'space-in-parens': ['warn', 'never'],
-    // 对象的花括号中不建议有空格
-    'object-curly-spacing': ['warn', 'never'],
     // 方括号内不建议使用空格
     'array-bracket-spacing': ['warn', 'never', {
       objectsInArrays: false,
       arraysInArrays: false,
     }],
-    // 函数圆括号之前不建议有一个空格
-    'space-before-function-paren': ['warn', 'never'],
     // 要求文件末尾保留一行空行
     'eol-last': 'warn',
     // 禁用行尾空格
